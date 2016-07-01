@@ -1,0 +1,52 @@
+table, th, td {
+    border: 1px solid black;
+}
+th {
+background-color: #FFE4C4;
+}
+
+.status_up {
+	color : green;
+}
+.status_down {
+	color : red;
+}
+ul.menu {
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline;
+}
+
+ul.menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 1px 1px 0 0;
+}
+
+ul.menu li a:hover {
+    background-color: orange;
+}
+
+ul.sub-menu {
+    padding: 0;
+}
+
+ul.sub-menu li {
+    display: inline;
+}
+
+ul.sub-menu li a {
+    background-color: #c0c0c0;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 1px 1px 0 0;
+}
+
+ul.sub-menu li a:hover {
+    background-color: #ff8000;
+}
