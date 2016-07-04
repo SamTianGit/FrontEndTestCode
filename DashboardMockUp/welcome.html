@@ -51,44 +51,51 @@
                         <li><a href="stats_service_qa03.html">QA03</a></li>
                     </ul>
                 </li>
-                <li class="active"><a href="stats_build.html">Build Status</a></li>
+                <li><a href="stats_build.html">Build Status</a></li>
 
             </ul>
         </div>
     </div>
 </nav>
-<div class="col-md-12">
-    <table class="table table-striped">
-        <tr>
-            <th>SERVICE</th>
-            <th>REVISION NUMBER</th>
-            <th>STATUS</th>
-        </tr>
-        <tr>
-            <td><a href="https://bcus-go.juniper.com/go/tab/pipeline/history/account-service" target="_blank">Account
-                Service</a></td>
-            <td>987654</td>
-            <td><span  class="label label-warning">Building</span></td>
-        </tr>
-        <tr>
-            <td><a href="https://bcus-go.juniper.com/go/tab/pipeline/history/device-service" target="_blank">Device
-                Service</a></td>
-            <td>12345</td>
-            <td><span  class="label label-success">Complete</span></td>
-        </tr>
-        <tr>
-            <td><a href="https://bcus-go.juniper.com/go/tab/pipeline/history/frauddetection-service" target="_blank">Fraud
-                Detection Service</a></td>
-            <td>2341234</td>
-            <td><span class="label label-danger">Failure</span></td>
-        </tr>
-        <tr>
-            <td><a href="https://bcus-go.juniper.com/go/tab/pipeline/history/customer-service" target="_blank">Customer
-                Service</a></td>
-            <td>987654</td>
-            <td><span class="label label-warning">Building</span></td>
-        </tr>
-    </table>
-</div>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Welcome to BAPI Dashboard</h1>
+        <p>This is a centre place where you can find real-time status information of all lower environments in BAPI.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>On Call Info</h2>
+          <p>Infomation of the person who is on call to PROD activities currently</p>
+          <p><a class="btn btn-secondary" href="stats_on_call.html" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Database Status</h2>
+          <p>Real time status of the databases in lower environment</p>
+          <p><a class="btn btn-secondary" href="stats_database.html" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Queue Status</h2>
+          <p>Real time status of the queues in lower environment</p>
+          <p><a class="btn btn-secondary" href="stats_queue_qa01.html" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Service Status</h2>
+          <p>Real time status of BAPI services on all servers in lower environment</p>
+          <p><a class="btn btn-secondary" href="stats_service_qa01.html" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Build Status</h2>
+          <p>Real time status of BAPI services in build pipeline</p>
+          <p><a class="btn btn-secondary" href="stats_build.html" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+    </div> <!-- /container -->
 </body>
 </html>

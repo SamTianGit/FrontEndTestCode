@@ -22,18 +22,18 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">BAPI Dashboard</a>
+            <a class="navbar-brand" href="welcome.html">BAPI Dashboard</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="stats_on_call.html">On Call</a></li>
+                <li><a href="stats_on_call.html">On Call</a></li>
                 <li><a href="stats_database.html">Database Status</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Queue Status<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Queue Status<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="stats_queue_qa01.html">QA01</a></li>
                         <li><a href="stats_queue_qa02.html">QA02</a></li>
-                        <li><a href="stats_queue_qa03.html">QA03</a></li>
+                        <li class="active"><a href="stats_queue_qa03.html">QA03</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -51,7 +51,7 @@
     </div>
 </nav>
 <body>
-<div class="col-md-6">
+<div class="col-md-12">
 <table class="table table-striped">
 <tr><th>SERVER</th><th>STATUS</th></tr>
 <tr><td>QA03 Queue Server 1</td><td><span  class="label label-success">Running</span></td></tr>
